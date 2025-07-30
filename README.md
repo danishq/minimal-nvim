@@ -1,6 +1,6 @@
 # 📝 Neovim Modern Config with JavaScript & Java LSP
 
-This is a modular Neovim configuration designed for a modern, IDE-like experience, with special attention to JavaScript and Java Language Server Protocol (LSP) integration.
+This is a modular Neovim configuration designed for a modern, IDE-like experience, with special attention to JavaScript and Java Language Server Protocol (LSP) integration. Native LSP client is used. LSP without MASON.
 
 📁 Directory Structure  
 ```
