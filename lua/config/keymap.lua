@@ -1,5 +1,6 @@
 vim.keymap.set("n","<leader>e","<CMD>Explor<CR>")
 vim.keymap.set("n","<leader>Q","<CMD>wqa<CR>")
+vim.keymap.set("n","<leader>q","<C-v>")
 
 
 --Telescope
@@ -10,7 +11,7 @@ vim.keymap.set('n', '<leader>fb', "<CMD>Telescope builtin<CR>", { desc = 'Telesc
 
 
 -- Universal Paste
-vim.keymap.set({ 'n','v', 'x' }, '<leader>y', '"+y', { desc = 'Copy to system clipboard' })
+vim.keymap.set({ 'n','v', 'x' }, 'y', '"+y', { desc = 'Copy to system clipboard' })
 vim.keymap.set({ 'n','v', 'x' }, '<leader>p', '"+p', { desc = 'Paste from system clipboard after the cursor position' })
 vim.keymap.set({ 'n','v', 'x' }, '<leader>P', '"+P', { desc = 'Paste from system clipboard before the cursor position' })
 
