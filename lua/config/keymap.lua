@@ -1,3 +1,4 @@
+--Basic Improvements
 vim.keymap.set("n","<leader>e","<CMD>Explor<CR>")
 vim.keymap.set("n","<leader>Q","<CMD>wqa<CR>")
 vim.keymap.set("n","<leader>q","<C-v>")
@@ -16,6 +17,7 @@ vim.keymap.set({ 'n','v', 'x' }, '<leader>p', '"+p', { desc = 'Paste from system
 vim.keymap.set({ 'n','v', 'x' }, '<leader>P', '"+P', { desc = 'Paste from system clipboard before the cursor position' })
 
 
+-- Navigation Between Split Panes
 vim.keymap.set("n","<C-j>","<C-w>j")
 vim.keymap.set("n","<C-k>","<C-w>k")
 vim.keymap.set("n","<C-h>","<C-w>h")
