@@ -2,10 +2,12 @@ require("config.lazy")
 require("config.basic")
 require("config.keymap")
 require("config.cmp")
+require("config.autocmd")
+
 
 --Language Server Protocols
 --1. javascript, 2.java, 3.python to be added
-vim.lsp.enable({'tsserver','java-lsp'})
+vim.lsp.enable({'tsserver','java-lsp', 'clangd'})
 
 
 --TreeSitter

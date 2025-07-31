@@ -2,6 +2,7 @@
 vim.keymap.set("n","<leader>e","<CMD>Explor<CR>")
 vim.keymap.set("n","<leader>Q","<CMD>wqa<CR>")
 vim.keymap.set("n","<leader>q","<C-v>")
+vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]], { noremap = true, silent = true })
 
 
 --Telescope
@@ -35,5 +36,5 @@ vim.keymap.set("n", "<leader>nn", "<CMD>Neotree close<CR>", { desc = 'Close NeoT
 
 
 -- Terminal Window Floating
-vim.keymap.set("n", "<leader>gt", "<CMD>ToggleTerm size=40 dir=~/Desktop direction=float name=desktop<CR>", { desc = 'Open Terminal in Floating Window' })
+vim.keymap.set("n", "<leader>gt", "<CMD>ToggleTerm size=40 dir=~./ direction=float name=desktop<CR>", { desc = 'Open Terminal in Floating Window' })
 vim.keymap.set("n", "<leader>gtt", "<CMD>close<CR>", { desc = 'Close Terminal Window' })
