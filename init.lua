@@ -7,7 +7,7 @@ require("config.autocmd")
 
 --Language Server Protocols
 --1. javascript, 2.java, 3.python to be added
-vim.lsp.enable({'tsserver','java-lsp', 'clangd'})
+vim.lsp.enable({'tsserver','java-lsp', 'clangd','html','css'})
 
 
 --TreeSitter
@@ -57,4 +57,4 @@ require'nvim-treesitter.configs'.setup {
 }
 vim.g.gruvbox_transparent_bg = false
 vim.o.background = "dark" -- or "light" for light mode
-vim.cmd([[colorscheme tokyonight]])
+vim.cmd([[colorscheme onedark]])

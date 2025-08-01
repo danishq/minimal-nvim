@@ -7,4 +7,6 @@ return {
   { "L3MON4D3/LuaSnip" },
   -- Snippet source for nvim-cmp
   { "saadparwaiz1/cmp_luasnip" },
+  -- Had to download for typescript and html boiler plate
+  {"rafamadriz/friendly-snippets"}
 }
