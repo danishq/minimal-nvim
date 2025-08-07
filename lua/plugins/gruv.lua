@@ -33,7 +33,7 @@ return {
           options = {
               cursorline = true,
               terminal_colors=false,
-              transparency = true,
+              transparency = false,
           }
       })
   end

@@ -12,7 +12,7 @@ cmp.setup({
   snippet = {
     expand = function(args)
       require('luasnip').lsp_expand(args.body)
-      require("luasnip.loaders.from_vscode").lazy.load()
+      require("luasnip.loaders.from_vscode").lazy_load()
     end,
   },
 })

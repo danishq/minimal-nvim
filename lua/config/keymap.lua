@@ -38,3 +38,7 @@ vim.keymap.set("n", "<leader>nn", "<CMD>Neotree close<CR>", { desc = 'Close NeoT
 -- Terminal Window Floating
 vim.keymap.set("n", "<leader>gt", "<CMD>ToggleTerm size=40 dir=~./ direction=float name=desktop<CR>", { desc = 'Open Terminal in Floating Window' })
 vim.keymap.set("n", "<leader>gtt", "<CMD>close<CR>", { desc = 'Close Terminal Window' })
+
+--Buffer
+vim.keymap.set("n", "<leader>nx", "<CMD>bn<CR>", { desc = 'Next Buffer' })
+vim.keymap.set("n", "<leader>pv", "<CMD>bp<CR>", { desc = 'Previous Buffer' })
