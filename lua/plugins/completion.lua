@@ -8,5 +8,10 @@ return {
   -- Snippet source for nvim-cmp
   { "saadparwaiz1/cmp_luasnip" },
   -- Had to download for typescript and html boiler plate
-  {"rafamadriz/friendly-snippets"}
+  {"rafamadriz/friendly-snippets"},
+  --path file completion
+
+  { "hrsh7th/cmp-path" }, 
+  { "hrsh7th/cmp-cmdline" },
+  
 }
