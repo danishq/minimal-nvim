@@ -42,3 +42,6 @@ vim.keymap.set("n", "<leader>gtt", "<CMD>close<CR>", { desc = 'Close Terminal Wi
 --Buffer
 vim.keymap.set("n", "<leader>nx", "<CMD>bn<CR>", { desc = 'Next Buffer' })
 vim.keymap.set("n", "<leader>pv", "<CMD>bp<CR>", { desc = 'Previous Buffer' })
+
+--UndotreeToggle
+vim.keymap.set('n', '<leader>;', vim.cmd.UndotreeToggle)
