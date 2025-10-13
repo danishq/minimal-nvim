@@ -17,8 +17,6 @@ require("config.autocmd")
 --1. javascript, 2.java, 3.python to be added
 vim.lsp.enable({'tsserver','java-lsp', 'clangd','html','css','dart','pylsp'})
 
-
-
 vim.g.gruvbox_transparent_bg = false
 vim.o.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme onedark]])

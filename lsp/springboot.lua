@@ -1,0 +1,12 @@
+--local capabilities = vim.lsp.protocol.make_client_capabilities()
+--capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+--
+--return {
+--  cmd = {
+--    'java',
+--    '-jar', '/home/danish/tools/spring-vscode-ext/extension/language-server/spring-boot-language-server-1.64.0-SNAPSHOT-exec.jar'
+--  },
+--  filetypes = { 'java', 'properties', 'yaml' },
+--  root_markers = { 'pom.xml', 'build.gradle', '.git' },
+--  capabilities = capabilities,
+--}
